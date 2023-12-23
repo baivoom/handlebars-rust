@@ -424,6 +424,7 @@ pub use self::registry::DirectorySourceOptions;
 pub use self::registry::{html_escape, no_escape, EscapeFn, Registry as Handlebars};
 pub use self::render::{Decorator, Evaluable, Helper, RenderContext, Renderable};
 pub use self::template::Template;
+pub use self::block::BlockParamHolder;
 
 #[doc(hidden)]
 pub use self::serde_json::Value as JsonValue;
